@@ -1,0 +1,30 @@
+1.	Launch the application browser
+2.	Open the web page “ConferenceRegistartion.html “ in the browser.
+3.	Verify the title “Conference Registration” of the page. The test should stop execution if the title of the page is not matching with the expected title.
+4.	Verify the heading  “Step 1: Personal Details ” of the page. The test should stop execution if the heading of the page is not matching with the expected heading.
+Note: Before entering data in the form fields you need to ensure that the respective fields are present on the web page and print TRUE or FALSE while test case execution. You need to do this for each field.
+5.	Enter First Name. Ensure that the alert box displays the message “Please fill the First Name” upon clicking on the link “Next” without entering any data in the text box.
+6.	Enter Last Name. Ensure that the alert box displays the message “Please fill the Last Name” upon clicking on the link “Next” without entering any data in the text box.
+7.	Enter Email.Ensure that the alert box displays the message “Plese fill the Email” upon wrong email format entered in the text box.
+8.	Enter Contact no. Ensure that the alert box displays the message “Please fill the Contact No.” upon clicking on the link “Next” without entering any data in the text box.
+9.	Ensure that the alert box displays the message “Please enter valid Contact no.” upon clicking on the link “Next” on entering wrong data that doesn’t start with either 7,8 or 9 and doesn’t have 10 digits in the text box.
+10.	Select Number of people attending. Ensure that the alert box displays the message “Number of people attending.” upon clicking on the link “Next” without entering any data in the text box.
+11.	Select Street Address
+12.	Select City
+13.	Select State
+14.	Select Conference full-Access(member)
+15.	Select Conference full-Access(non-member)
+16.	Click on the link “Next”.  
+a.	Ensure that the alert box displays the message “Personal details are validated” on entering all valid data. 
+b.	Verify that you are then navigated to next page “PaymentDetails.html”.  
+17.	Select First Name
+18.	Select Last Name
+19.	Select Debit card number. 
+20.	Select CVV
+21.	Select Expiration Month
+22.	Select Expiration Year
+23.	Click on “Register ” button. Ensure that the alert box displays the message “Registration Successful”
+The Test Script should do the following apart from the flow mentioned in the Q1.
+a.	Locate the UI elements using appropriate locators & fill the data in the form.
+b.	Ensure that the test script execution pauses for 10 seconds before executing next instruction.
+c.	Close the browser window once the entire task completes.

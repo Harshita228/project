@@ -1,0 +1,7 @@
+http://ndafile:8081/AssetManagementSystem_Spring/index.html
+
+http://ndafile:8081/OnlineBankingProjectSpring/
+
+http://ndafile:8081/Spring_Hotel/login.html
+
+http://ndafile:8081/AirlineReservationSystem/
